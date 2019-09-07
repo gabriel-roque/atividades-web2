@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="node_modules/material-icons/iconfont/material-icons.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Logo</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a class="dropdown-trigger" href="#">Clientes
+                            <i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-trigger" href="#">Produtos
+                            <i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-trigger" href="#">Pedidos
+                            <i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="row" style="margin-top: 3vw">
+            <form class="col s12" method="POST" action="form.php">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="nome" type="text" class="validate" name="nome">
+                        <label for="nome">Nome</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="telefone" type="text" class="validate" name="telefone">
+                        <label for="telefone">Telefone</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">mail</i>
+                        <input id="mail" type="email" class="validate" name="mail">
+                        <label for="mail">Email</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="tel_alternativo" type="text" class="validate" name="tel_alternativo">
+                        <label for="tel_alternativo">Telefone Alternativo</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">business</i>
+                        <input id="Rua" type="text" class="validate" name="rua">
+                        <label for="Rua">Rua</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">business</i>
+                        <input id="quadra" type="text" class="validate" name="quadra">
+                        <label for="quadra">Quadra</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">business</i>
+                        <input id="numero" type="text" class="validate" name="numero">
+                        <label for="numero">Numero</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">business</i>
+                        <input id="estado" type="text" class="validate" name="estado">
+                        <label for="estado">Estado</label>
+                    </div>
+                </div>
+
+                <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                    <i class="material-icons right">send</i>
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+
+
+</html>

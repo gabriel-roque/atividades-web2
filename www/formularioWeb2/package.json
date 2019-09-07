@@ -1,0 +1,16 @@
+{
+  "name": "formularioweb2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "material-icons": "^0.3.1",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
